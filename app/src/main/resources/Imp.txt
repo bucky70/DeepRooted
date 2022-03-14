@@ -1,0 +1,10 @@
+./gradlew build
+
+gradle clean
+
+gradle jar
+
+cd to the jar folder in build and execute either of the following code
+
+java -jar app.jar C:\Users\admin\Desktop\DeepRooted\app\src\main\resources\sampleInput1.txt
+java -jar app.jar C:\Users\admin\Desktop\DeepRooted\app\src\main\resources\sampleInput2.txt
