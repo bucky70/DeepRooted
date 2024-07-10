@@ -2,6 +2,18 @@
 
 This program implements a demand-supply matching system for an online market maker. The goal is to match supply orders from farmers/traders with demand orders from customers/traders based on specific rules to maximize profit for the market maker.
 
+## Execution
+./gradlew build
+
+gradle clean
+
+gradle jar
+
+cd to the jar folder in build and execute either of the following code
+
+java -jar app.jar \DeepRooted\app\src\main\resources\sampleInput1.txt
+java -jar app.jar \DeepRooted\app\src\main\resources\sampleInput2.txt
+
 ## Functionality
 
 1. **Supply Orders**: Farmers/Traders publish the availability of produce with details such as quantity and price.
